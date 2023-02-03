@@ -1,7 +1,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class Study_Class {
+public class Study_class {
     public static void main(String[] args) {
         System.out.println(Math.max(10, 30));
         System.out.println(Math.min(10, 30));
