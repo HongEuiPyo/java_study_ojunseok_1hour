@@ -18,13 +18,13 @@ public class Study_array {
 
         scores = new int[] {10, 20, 30, 40, 50};    //  int 배열 선언
 //        System.out.println(scores[5]);  //  java.lang.ArrayIndexOutofBoundsException 발생
-        System.out.println(scores[scores.length]);
+        System.out.println(scores[scores.length-1]);
 
         String[] names = {"홍길동", "이순신"};    //  String 배열 선언
         System.out.println(names[0]);
 
         names = new String[2];
-        System.out.println(names[0].length());  //  java.lang.NullpointerException 발생
+//        System.out.println(names[0].length());  //  java.lang.NullpointerException 발생
 
         //  null은
         //  참조 타입 변수는 힙 영역의 객체를 참조하지 않는다는 뜻으로 null값을 가질 수 있다.
