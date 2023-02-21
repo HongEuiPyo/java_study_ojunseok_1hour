@@ -5,8 +5,6 @@ package reviewDay6.models;
 //모든 Person의 기능을 갖게 되고
 //추가적으로 flying 기능을 갖게 된다.
 
-import reviewDay5.models.Character;
-
 public class Hero extends Character {
 
     public Hero(String name) { setName(name); }
@@ -18,6 +16,6 @@ public class Hero extends Character {
     public void setFlying(boolean flying) { isFlying = flying; }
 
     @Override
-    public void attack(reviewDay5.models.Hero hero) {
+    public void attack(Hero hero) {
         System.out.println(this.getName() + "은(는) " + hero.getName() + "과 싸움을 했다."); }
 }
