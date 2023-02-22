@@ -1,21 +1,19 @@
-package reviewDay7;
+package reviewDay8;
 
 public class Study_method {
 
     // static은
     // 처음 프로그램이 실행될 때 메모리에 항상 로드되는 부분
     // 별도의 영역의 메모리를 차지하게 된다.
-
     public static void main(String[] args) {
         add(50, 10);
         System.out.println(add2(30, 10));
-        System.out.println(add2(30, 10, 30));
+        System.out.println(add2(30,10,30));
     }
 
     // 메서드를 따로 정의하면
     // 반복되는 코드를 줄일 수 있고,
     // 다양하게 활용이 가능하다.
-
     public static void add(int x, int y) { System.out.println(x+y); }
 
     // 메서드 오버로드
